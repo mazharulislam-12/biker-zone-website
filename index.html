@@ -182,16 +182,16 @@
         <h2 class=" text-2xl lg:text-5xl text-center text-white font-semibold">Fetured Bikes In This Year</h2>
         <p class="text-center text-[#E76F51] mt-3 mb-5">Best bike collection</p>
 
-        <div class="flex  justify-center space-x-14">
-          <div class="w-[288px]">
+        <div class=" container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+          <div class="">
             <img src="images/others/latest1.png" alt="">
           </div>
 
-          <div class="w-[288px]">
+          <div class="">
             <img src="images/others/latest2.png" alt="">
           </div>
 
-          <div class="w-[288px]">
+          <div class="">
             <img src="images/others/latest3.png" alt="">
           </div>
         </div>
@@ -202,7 +202,44 @@
 
       <!-- latest News section start -->
         <section>
-          <h2>latest News</h2>
+          <h2 class="text-5xl font-semibold text-center my-24 text-white mb-12">latest News</h2>
+
+          <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- fast card -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                  <button> <a class="btn bg-bike-primary text-white text-lg">Read More</a></button>
+                </div>
+              </div>
+            </div>
+            <!-- second card -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="/images//others/latest2.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                  <button> <a class="btn bg-bike-primary text-white text-lg">Read More</a></button>
+                </div>
+              </div>
+            </div>
+            <!-- third card -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="/images//others/latest3.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                  <button> <a class="btn bg-bike-primary text-white text-lg">Read More</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </section>
       <!-- latest News section end -->
 
